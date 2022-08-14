@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="reqres" guice-stage="DEVELOPMENT">
+
+  	<test thread-count="3" name="reqres" verbose="2">
+    	<classes>
+      		<class name="ctcorp.iviewAPI.testCase.APIcase"/>
+    	</classes>
+  	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
